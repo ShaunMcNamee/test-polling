@@ -8,7 +8,7 @@ import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client'
 import theme from './theme'
 
 const client = new ApolloClient({
-  uri: 'http://137.184.155.152/v1/graphql',
+  uri: 'https://test-polling.shaunmcnamee.dev/v1/graphql',
   cache: new InMemoryCache(),
 })
 
