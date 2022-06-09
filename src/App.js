@@ -48,6 +48,7 @@ function App() {
             placeholder="Name"
             value={name}
             onChange={({ target: { value } }) => setName(value)}
+            color="brand.mintCream"
           />
           <Textarea
             placeholder="Comment"
