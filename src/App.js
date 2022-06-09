@@ -42,7 +42,7 @@ function App() {
   }
   return (
     <Box height="100vh" width="100vw" backgroundColor="brand.onyx" as="main">
-      <HStack dir="row" alignItems="flex-start">
+      <HStack dir="row" alignItems="flex-start" height="100%">
         <Box padding={8} flex="1" display="flex" flexDir="column">
           <Input
             placeholder="Name"
@@ -71,6 +71,7 @@ function App() {
           display="flex"
           flexDir="column"
           overflow="scroll"
+          height="100%"
         >
           {data.comments.map(({ id, author, comment, createdAt }) => (
             <Box p={5} borderWidth="1px" key={id}>
